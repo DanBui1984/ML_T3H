@@ -14,5 +14,6 @@ import datetime as dt
 date_string = "25-11-2024 14:30:00"
 parse_date = datetime.strptime (date_string, "%d-%m-%Y %H:%M:%S")
 print(date_string)
+print(parse_date)
 
 
